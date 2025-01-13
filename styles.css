@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+    background: #E2F7FF;
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #E2F7FF;
+}
+
+.big-picture {
+    margin-bottom: 40px;
+}
+
+
+.big-picture img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.card {
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+
+.big-picture-text {
+    bottom: 20px;
+    left: 20px;
+    padding: 15px;
+   
+}
+
+
+.big-picture-text h1 {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+
+.big-picture-text .tags {
+    margin-top: 10px;
+}
+
+
+.horizontal-line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #E2F7FF;
+    border-radius: 12px;
+   
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+
+.card-text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    overflow: hidden;
+    color: #43629f;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+
+
+.card-text p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    align-self: stretch;
+  
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.tag.design {
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background-color: #F9F5FF;
+    text-align: center;
+    color: #6941C6;
+}
+
+.tag.research {
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+    padding: 8px 12px;
+    align-items: center;
+    color: #3538CD;
+}
+
+.tag.presentation {
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+    color: #3538CD;
+}
+
+.tag.product {
+    background-color: #fbbc04;
+}
+
+.tag.tools {
+    background-color: #34a853;
+}
+
+.tag.saas {
+    background-color: #ff6d00;
+}
+
+.tag.software {
+    background-color: #6d4c41;
+}
+
+.tag.leadership {
+    background-color: #8e24aa;
+}
+
+.tag.management {
+    background-color: #03a9f4;
+}
+
+.tag.frameworks {
+    background-color: #d50000;
+}
+
